@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
+    "name": "project",
+    "short_name": "project",
+=======
     "name": "car_rental_app",
     "short_name": "car_rental_app",
+>>>>>>> origin/main
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
