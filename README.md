@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # project
 =======
 # car_rental_app
 >>>>>>> origin/main
+=======
+# project
+>>>>>>> feature/booking
 
 A new Flutter project.
 

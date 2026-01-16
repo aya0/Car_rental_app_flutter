@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'pages/app_start.dart';
 =======
 >>>>>>> origin/main
+=======
+import 'pages/app_start.dart';
+>>>>>>> feature/booking
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +16,9 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/booking
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -20,6 +27,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
 =======
   // This widget is the root of your application.
   @override
@@ -135,3 +143,5 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 >>>>>>> origin/main
+=======
+>>>>>>> feature/booking

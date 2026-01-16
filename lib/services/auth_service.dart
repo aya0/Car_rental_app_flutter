@@ -3,7 +3,13 @@ import 'package:http/http.dart' as http;
 import '../core/api_config.dart';
 
 class AuthService {
+<<<<<<< HEAD
  
+=======
+  /// =========================
+  /// Register (Sign Up)
+  /// =========================
+>>>>>>> feature/booking
   Future<Map<String, dynamic>> registerCustomer({
     required String fullName,
     required String phone,
@@ -85,4 +91,8 @@ class AuthService {
 
     return decoded;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

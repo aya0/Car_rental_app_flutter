@@ -50,8 +50,13 @@ class _SignupPageState extends State<SignupPage> {
       return;
     }
 
+<<<<<<< HEAD
     if (pass != confirm) {
       _toast("Passwords do not match");
+=======
+    if (!email.contains("@")) {
+      _toast("Invalid email");
+>>>>>>> feature/booking
       return;
     }
 
@@ -60,6 +65,14 @@ class _SignupPageState extends State<SignupPage> {
       return;
     }
 
+<<<<<<< HEAD
+=======
+    if (pass != confirm) {
+      _toast("Passwords do not match");
+      return;
+    }
+
+>>>>>>> feature/booking
     setState(() => _loading = true);
 
     try {
@@ -73,10 +86,21 @@ class _SignupPageState extends State<SignupPage> {
 
       _toast("Account created successfully ✅");
 
+<<<<<<< HEAD
     } catch (e) {
       _toast(e.toString().replaceFirst("Exception: ", ""));
     } finally {
       setState(() => _loading = false);
+=======
+      // ✅ يرجع لصفحة اللوج إن (لأنك جاي منها)
+      if (mounted) {
+        Navigator.pop(context);
+      }
+    } catch (e) {
+      _toast(e.toString().replaceFirst("Exception: ", ""));
+    } finally {
+      if (mounted) setState(() => _loading = false);
+>>>>>>> feature/booking
     }
   }
 
@@ -94,7 +118,10 @@ class _SignupPageState extends State<SignupPage> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/booking
             _field(_nameCtrl, "Full Name"),
             _field(_phoneCtrl, "Phone", TextInputType.phone),
             _field(_emailCtrl, "Email", TextInputType.emailAddress),
@@ -127,6 +154,23 @@ class _SignupPageState extends State<SignupPage> {
                     : const Text("Create Account"),
               ),
             ),
+<<<<<<< HEAD
+=======
+
+            const SizedBox(height: 12),
+
+            // ✅ (اختياري) لينك يرجع للوج إن
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text("Already have an account? "),
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text("Login"),
+                ),
+              ],
+            ),
+>>>>>>> feature/booking
           ],
         ),
       ),
@@ -165,4 +209,9 @@ class _SignupPageState extends State<SignupPage> {
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> feature/booking

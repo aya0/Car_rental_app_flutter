@@ -37,4 +37,8 @@ class CustomerDashboard extends StatelessWidget {
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

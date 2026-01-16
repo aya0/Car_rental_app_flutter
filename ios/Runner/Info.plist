@@ -6,10 +6,14 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>Project</string>
 =======
 	<string>Car Rental App</string>
 >>>>>>> origin/main
+=======
+	<string>Project</string>
+>>>>>>> feature/booking
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -18,10 +22,14 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<string>project</string>
 =======
 	<string>car_rental_app</string>
 >>>>>>> origin/main
+=======
+	<string>project</string>
+>>>>>>> feature/booking
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

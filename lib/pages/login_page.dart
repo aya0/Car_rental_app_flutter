@@ -4,6 +4,10 @@ import '../core/session.dart';
 import 'dashboards/customer_dashboard.dart';
 import 'dashboards/employee_dashboard.dart';
 import 'dashboards/manager_dashboard.dart';
+<<<<<<< HEAD
+=======
+import 'signup_page.dart';
+>>>>>>> feature/booking
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -47,10 +51,14 @@ class _LoginPageState extends State<LoginPage> {
         page = const CustomerDashboard();
     }
 
+<<<<<<< HEAD
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (_) => page),
     );
+=======
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => page));
+>>>>>>> feature/booking
   }
 
   Future<void> _login() async {
@@ -79,11 +87,25 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
+<<<<<<< HEAD
+=======
+  void _goToSignup() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const SignupPage()),
+    );
+  }
+
+>>>>>>> feature/booking
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Login")),
+<<<<<<< HEAD
       body: Padding(
+=======
+      body: SingleChildScrollView(
+>>>>>>> feature/booking
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
@@ -109,6 +131,10 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             const SizedBox(height: 16),
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/booking
             SizedBox(
               width: double.infinity,
               height: 48,
@@ -119,9 +145,30 @@ class _LoginPageState extends State<LoginPage> {
                     : const Text("Login"),
               ),
             ),
+<<<<<<< HEAD
+=======
+
+            const SizedBox(height: 14),
+
+            // ✅ Sign Up Link
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text("Don't have an account? "),
+                TextButton(
+                  onPressed: _goToSignup,
+                  child: const Text("Sign Up"),
+                ),
+              ],
+            ),
+>>>>>>> feature/booking
           ],
         ),
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

@@ -39,4 +39,8 @@ class AppStart extends StatelessWidget {
       },
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

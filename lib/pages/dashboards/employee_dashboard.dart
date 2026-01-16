@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/booking
 import 'package:flutter/material.dart';
 import '../../core/session.dart';
 import '../login_page.dart';
@@ -32,4 +35,8 @@ class EmployeeDashboard extends StatelessWidget {
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

@@ -28,4 +28,8 @@ class Session {
     await prefs.remove(_kUser);
     await prefs.remove(_kRole);
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

@@ -28,10 +28,14 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
 <<<<<<< HEAD
+<<<<<<< HEAD
   if (!window.Create(L"project", origin, size)) {
 =======
   if (!window.Create(L"car_rental_app", origin, size)) {
 >>>>>>> origin/main
+=======
+  if (!window.Create(L"project", origin, size)) {
+>>>>>>> feature/booking
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

@@ -31,4 +31,8 @@ class ManagerDashboard extends StatelessWidget {
       ),
     );
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> feature/booking

@@ -6,16 +6,22 @@
 
 // The application's name. By default this is also the title of the Flutter window.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/booking
 PRODUCT_NAME = project
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.project
+<<<<<<< HEAD
 =======
 PRODUCT_NAME = car_rental_app
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.carRentalApp
 >>>>>>> origin/main
+=======
+>>>>>>> feature/booking
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

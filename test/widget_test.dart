@@ -9,10 +9,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:project/main.dart';
 =======
 import 'package:car_rental_app/main.dart';
 >>>>>>> origin/main
+=======
+import 'package:project/main.dart';
+>>>>>>> feature/booking
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
